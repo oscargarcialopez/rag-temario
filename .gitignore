@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.pytest_cache/
+.ruff_cache/
+
+# Generated artefacts: indexes, embedding cache, eval runs
+data/cache/
+data/index/
+data/runs/
+*.npz
+
+# Source PDFs live outside the repo; these are the default places to drop a copy
+/corpus/
+/exams/
